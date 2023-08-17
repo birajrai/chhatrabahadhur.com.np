@@ -1,0 +1,69 @@
+// Root Styling
+* {
+    background: darkgray;
+    scroll-behavior: smooth;
+    padding: 0px;
+    margin: 0px;
+}
+
+// Nav - Navbar - Main Menu
+.nav {
+    border-color: rgb(0, 225, 255);
+    border-style: dashed;
+    ul {
+        display: flex;
+        .menu-icon {
+            display: flex;
+            background: gray;
+            border-radius: 100%;
+            border-color: rgb(0, 0, 0);
+            border-style: solid;
+            width: 50px;
+            height: 50px;
+        }
+        .nav-list {
+            display: flex;
+            padding: 10px;
+            list-style: none;
+            .nav-link {
+                user-select: none;
+                font-size: 16px;
+                font-family: Poppins;
+                font-weight: bold;
+                margin: 10px;
+                color: red;
+                text-decoration: none;
+                &:hover {
+                    color: black;
+                    font-weight: bolder;
+                }
+            }
+        }
+    }
+}
+
+// Styling for Index.html
+.index {
+    padding: 40px;
+    .main {
+        .hero {
+            .main-img {
+                background: gray;
+                border-radius: 100%;
+                width: 300px;
+                border-color: rgb(0, 0, 0);
+                border-style: solid;
+                height: 300px;
+            }
+            h1 {
+                font-family: Arial;
+                color: black;
+                font-size: 30px;
+                text-align: center;
+            }
+        }
+        .social {
+            text-align: center;
+        }
+    }
+}
