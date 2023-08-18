@@ -1,6 +1,27 @@
+
+$bg-color: #E5E9F0;
+$text-color: #2E3440;
+
+
+
+p,a,h1,h2,h3 {
+    color: $text-color;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
 // Root Styling
 * {
-    background: darkgray;
+    background: $bg-color;
     scroll-behavior: smooth;
     padding: 0px;
     margin: 0px;
@@ -8,16 +29,14 @@
 
 // Nav - Navbar - Main Menu
 .nav {
-    border-color: rgb(0, 225, 255);
-    border-style: dashed;
     ul {
         display: flex;
         .menu-icon {
             display: flex;
-            background: gray;
+            background: $bg-color;
             border-radius: 100%;
             border-color: rgb(0, 0, 0);
-            border-style: solid;
+            margin: 8px;
             width: 50px;
             height: 50px;
         }
@@ -49,21 +68,46 @@
         .hero {
             .main-img {
                 background: gray;
-                border-radius: 100%;
+                border-radius: 10%;
                 width: 300px;
                 border-color: rgb(0, 0, 0);
-                border-style: solid;
                 height: 300px;
             }
             h1 {
                 font-family: Arial;
-                color: black;
+                color: $text-color;
                 font-size: 30px;
                 text-align: center;
             }
         }
         .social {
             text-align: center;
+            color: $text-color;
+            .email{
+                color: gray;
+                font-size: 20px;
+                &:hover{
+                    font-weight: bold;
+                    font-size: 25px;
+                }
+            }
+            .facebook{
+                color: blue;
+                font-size: 20px;
+
+                &:hover{
+                    font-weight: bold;
+                    font-size: 25px;
+                }
+            }
+            .phone{
+                font-size: 20px;
+                color: green;
+                &:hover{
+                    font-weight: bold;
+                    font-size: 25px;
+                }
+            }
         }
     }
 }

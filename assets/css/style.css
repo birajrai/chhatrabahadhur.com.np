@@ -1,23 +1,24 @@
+p, a, h1, h2, h3 {
+  color: #2E3440;
+  text-decoration: none;
+}
+
 * {
-  background: darkgray;
+  background: #E5E9F0;
   scroll-behavior: smooth;
   padding: 0px;
   margin: 0px;
 }
 
-.nav {
-  border-color: rgb(0, 225, 255);
-  border-style: dashed;
-}
 .nav ul {
   display: flex;
 }
 .nav ul .menu-icon {
   display: flex;
-  background: gray;
+  background: #E5E9F0;
   border-radius: 100%;
   border-color: rgb(0, 0, 0);
-  border-style: solid;
+  margin: 8px;
   width: 50px;
   height: 50px;
 }
@@ -47,18 +48,42 @@
 }
 .index .main .hero .main-img {
   background: gray;
-  border-radius: 100%;
+  border-radius: 10%;
   width: 300px;
   border-color: rgb(0, 0, 0);
-  border-style: solid;
   height: 300px;
 }
 .index .main .hero h1 {
   font-family: Arial;
-  color: black;
+  color: #2E3440;
   font-size: 30px;
   text-align: center;
 }
 .index .main .social {
   text-align: center;
+  color: #2E3440;
+}
+.index .main .social .email {
+  color: gray;
+  font-size: 20px;
+}
+.index .main .social .email:hover {
+  font-weight: bold;
+  font-size: 25px;
+}
+.index .main .social .facebook {
+  color: blue;
+  font-size: 20px;
+}
+.index .main .social .facebook:hover {
+  font-weight: bold;
+  font-size: 25px;
+}
+.index .main .social .phone {
+  font-size: 20px;
+  color: green;
+}
+.index .main .social .phone:hover {
+  font-weight: bold;
+  font-size: 25px;
 }/*# sourceMappingURL=style.css.map */
